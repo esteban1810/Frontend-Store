@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Store</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace" href="index.html">Tienda</a>
+        <a class="navegacion__enlace navegacion__enlace--activo" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>React Js</h1>
+        <div class="playera">
+            <img src="img/3.jpg" alt="react js">
+            <div class="informacion">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab repellendus commodi ex, vitae qui doloribus neque quasi, nemo quae consectetur nobis itaque obcaecati.</p>
+                <form action="" class="formulario">
+                    <select class="formulario__campo">
+                        <option disabled selected>-- Seleccionar Talla --</option>
+                        <option>Chica</option>
+                        <option>Mediana</option>
+                        <option>Grande</option>
+                    </select>
+                    <input class="formulario__campo" type="number"  min="1" placeholder="Cantidad">
+                    <input class="formulario__submit" type="submit" value="Agregar al carrito">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <section>
+        <h2>¿Porqué comprar con nosotros?</h2>
+        <div class="bloques">
+            <div class="bloque">
+                <img src="img/icono_1.png" alt="" class="bloque__img">
+                <h3>El mejor precio</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente corporis optio ipsam ducimus praesentium, exercitationem.</p>
+            </div>
+            <div class="bloque">
+                <img src="img/icono_2.png" alt="" class="bloque__img">
+                <h3>El mejor precio</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente corporis optio ipsam ducimus praesentium, exercitationem.</p>
+            </div>
+            <div class="bloque">
+                <img src="img/icono_3.png" alt="" class="bloque__img">
+                <h3>El mejor precio</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente corporis optio ipsam ducimus praesentium, exercitationem.</p>
+            </div>
+            <div class="bloque">
+                <img src="img/icono_4.png" alt="" class="bloque__img">
+                <h3>El mejor precio</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente corporis optio ipsam ducimus praesentium, exercitationem.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__texto">
+            front end store - todos los derechos reservados 2022.
+        </p>
+    </footer>
+</body>
+</html>
